@@ -1,8 +1,7 @@
 # Machine_Learning_CS229_Ng
 My implementation of the coding exercises (Octave) for CS229 Intro to Machine Learning by Andrew Ng
 
-Week 3:
-Logistic Regression, Regularization
+Exercise 2 (Week 3: Logistic Regression, Regularization)
 
 This exercise applies Regularization to a classification algoritm using logistic regression.
 We parameterize the two input features into a 6-degree polynomial feature vector (dim=28).

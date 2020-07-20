@@ -5,7 +5,7 @@ My implementation of the coding exercises (Octave) for CS229 Intro to Machine Le
 <img src="/optim_vis.png" width="80%">
 
 ## Exercises implemented
-* Exercise 1 (week 2): Linear Regression
-* Exercise 2 (week 3): Logistic Regression, Regularization
-* Exercise 3 (week 4): Multi-class Classification and Neural Networks
+* [Exercise 1](Exercise1) (week 2): Linear Regression
+* [Exercise 2](Exercise2) (week 3): Logistic Regression, Regularization
+* [Exercise 3](Exercise3) (week 4): Multi-class Classification and Neural Networks
 * Exercise 4 (week 5): Neural Networks, training using Backpropagation

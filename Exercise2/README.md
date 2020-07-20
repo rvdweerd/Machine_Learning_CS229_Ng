@@ -1,4 +1,4 @@
-#Exercise 2 (Week 3: Logistic Regression, Regularization)
+# Exercise 2 (Week 3: Logistic Regression, Regularization)
 
 This exercise applies Regularization to a classification algoritm using logistic regression.
 We parameterize the two input features into a 6-degree polynomial feature vector (dim=28).

@@ -1,7 +1,7 @@
 # Machine_Learning_CS229_Ng
 My implementation of the coding exercises (Octave) for CS229 Intro to Machine Learning by Andrew Ng
 
-![fig1](/optim_vis.png)
+<!--- ![fig1](/optim_vis.png) --->
 <img src="/optim_vis.png" width="80%">
 
 ## Exercises implemented

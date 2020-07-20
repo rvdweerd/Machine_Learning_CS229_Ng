@@ -9,7 +9,7 @@ Examples:<br />
 ![fig2](/Exercise2/fig2_decision_boundary_mod_reg.png)
 ![fig3](/Exercise2/fig3_decision_boun_no_reg.png)
 
-Key code implemented:
+## Key code implemented:
 ```matlab
 function [J, grad] = costFunctionReg(theta, X, y, lambda)
 %COSTFUNCTIONREG Compute cost and gradient for logistic regression with regularization

@@ -29,26 +29,23 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 	
-	sum=[0;0];
-	for i = 1:m
-		h=theta'*X(i,:)';
-		sum=sum+(y(i)-h)*X(i,:)';
-	end;
-	theta = theta + alpha/m*sum;
+    sum=[0;0];
+    for i = 1:m
+    h=theta'*X(i,:)';
+    sum=sum+(y(i)-h)*X(i,:)';
+    end;
+    theta = theta + alpha/m*sum;
 	
-	#fprintf('iter: %f\n',iter);
-	#fprintf('Theta computed from gradient descent: (%f,%f)\n',theta(1),theta(2));
-	#fprintf('Cost J(theta): %f\n',computeCost(X,y,theta));
-	#fprintf('Gradient DJ(theta): (%f,%f)\n',sum(1)/m,sum(2)/m);
-	#disp('----------------');
-	
-
+    #fprintf('iter: %f\n',iter);
+    #fprintf('Theta computed from gradient descent: (%f,%f)\n',theta(1),theta(2));
+    #fprintf('Cost J(theta): %f\n',computeCost(X,y,theta));
+    #fprintf('Gradient DJ(theta): (%f,%f)\n',sum(1)/m,sum(2)/m);
+    #disp('----------------');
     % ============================================================
 
     % Save the cost J in every iteration    
     J_history(iter) = computeCost(X, y, theta);
-	theta_history(iter+1,:) = [theta];
-
+    theta_history(iter+1,:) = [theta];
 end
 
 end

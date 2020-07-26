@@ -31,6 +31,16 @@ J = 0;
 %Theta2_grad = zeros(size(Theta2));
 
 
+if size(Theta1,1) == 25
+	fprintf('.');
+	h=figure(1);
+	%clf;
+	displayData(Theta1(:,2:end));
+	%h=imagesc(reshape(Theta1(1,2:end),20,20),[-1,1]);
+	%drawnow;
+	
+end
+
 % ====================== YOUR CODE HERE ======================
 % Instructions: You should complete the code by working through the
 %               following parts.
@@ -44,7 +54,7 @@ Y= ones(size(y,1),1)*[1:num_labels];
 Y=(Y==y);
 
 Z2=X*Theta1'; 
-	fprintf('Size of Theta1 \n'); size(Theta1)
+%	fprintf('Size of Theta1 \n'); size(Theta1)
 A2=sigmoid(Z2);
 A2=[ones(m,1) A2];
 %	fprintf('Size of A2\n'); size(A2)

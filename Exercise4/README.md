@@ -22,3 +22,6 @@ We achieve a 100% accuracy on the testdata. The figure below shows how the weigh
 If we limit learning to 10 iterations (epochs), we achieve ~78% accuracy. Below are two prediction examples. <br />
 ![right](prediction_ex1.png)<br />
 ![wrong](prediction_ex0.png)
+
+## Neural Net Architecture
+![nn](nn.jpg)

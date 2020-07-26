@@ -40,7 +40,7 @@ sel = randperm(size(X, 1));
 sel = sel(1:100);
 
 displayData(X(sel, :));
-
+figure;
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
@@ -183,10 +183,10 @@ fprintf('\nTraining Neural Network... \n')
 
 %  After you have completed the assignment, change the MaxIter to a larger
 %  value to see how more training helps.
-options = optimset('MaxIter', 50);
+options = optimset('MaxIter', 10);
 
 %  You should also try different values of lambda
-lambda = 1;
+lambda = 1.5;
 
 % Create "short hand" for the cost function to be minimized
 costFunction = @(p) nnCostFunction(p, ...
@@ -227,8 +227,15 @@ pause;
 %  neural network to predict the labels of the training set. This lets
 %  you compute the training set accuracy.
 
-pred = predict(Theta1, Theta2, X);
-
+[H2,pred] = predict(Theta1, Theta2, X);
+figure;
+for i=1:500:5000
+	subplot(1,2,1);
+	displayData(X(i,:));
+	subplot(1,2,2);
+	barh(H2(i,:));
+	pause;
+end
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);
 
 

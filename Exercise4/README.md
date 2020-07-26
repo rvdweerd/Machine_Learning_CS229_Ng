@@ -17,3 +17,8 @@ Key characteristics:
 We achieve a 100% accuracy on the testdata. The figure below shows how the weights emerge during optimization (first 10 iterations shown). All weights are random initialized. Each square represents the (400x1) weight vector of the i-th unit (reshaped into (20x20) matrix, plotted using imagesc.m).
 
 ![NN training demo](NN_training.gif)
+
+## Predictions
+If we limit learning to 10 iterations (epochs), we achieve ~78% accuracy. Below are two prediction examples. <br />
+![right](prediction_ex1.png)<br />
+![wrong](prediction_ex0.png)

@@ -10,3 +10,4 @@ My implementation of the coding exercises (Octave) for CS229 Intro to Machine Le
 * [Exercise 3](Exercise3) (week 4): Multi-class Classification and Neural Networks
 * [Exercise 4](Exercise4) (week 5): Neural Networks, training using Backpropagation
 * [Exercise 5](Exercise5) (week 6): Regularized Linear Regression and Bias v.s.Variance
+* [Exercise 6](Exercise6) (week 7): Support Vector Machines: Spam classifier
